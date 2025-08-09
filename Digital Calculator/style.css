@@ -1,8 +1,13 @@
+/* Calculator Styles */
+
+/* Global Reset */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Main Container Layout */
 .container{
     display: flex;
     justify-content: center;
@@ -11,21 +16,29 @@
     height: 100Vh;
     background-color: #e3f9ff;
 }
+
+/* Calculator Outer Container */
 .container  .calculator{
     background-color: rgba(12, 9, 9, 0.938);
     padding: 10px;
     border-radius: 10px;
 }
+
+/* Calculator Main Body */
 .calculator  {
     background-color: #3a4452;
     padding: 20px;
     border-radius: 10px;
 }
+
+/* Display Section */
 .calculator .display{
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
 }
+
+/* Display Input Field */
 .calculator form .display input{
     flex: 1;
     box-shadow:none;
@@ -33,6 +46,8 @@
     font-size: 30px;
     background-color: #3a4452;
 }
+
+/* Button Styling */
 .calculator form input{
     padding: 10px;
     margin: 10px;
@@ -46,9 +61,13 @@
     background-color: rgba(12, 9, 9, 0.938);
     box-shadow: -2px -2px 15px 1px rgba(255, 255, 255, 0.185);
 }
+
+/* Equal Button Styling */
 .calculator form .equal{
     width:145px;
 }
+
+/* Operator Button Styling */
 form input.operator{
     color:rgba(78, 172, 78, 0.993);
 }
