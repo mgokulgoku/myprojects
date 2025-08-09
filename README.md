@@ -5,7 +5,7 @@ My Web Development Projects,
 This repository contains beginner-friendly projects I created while learning HTML, CSS, and JavaScript.
 It showcases my skills in building responsive and interactive web applications.
 
-Projects Included
+Projects Included,
 
 1.Weather App – Fetches and displays real-time weather data.
 
@@ -18,12 +18,12 @@ Projects Included
 5.Calculator – Basic arithmetic with a clean design.
 
 Technologies Used
-HTML5, CSS3, JavaScript (ES6+), Responsive Design
+HTML5, CSS3, JavaScript (ES6+), Responsive Design.
 
-Future Plans
+Future Plans,
 
-Add more projects regularly
+-Add more projects regularly.
 
-Learn React.js for advanced development
+-Learn React.js for advanced development.
 
-Improve UI/UX designs
+-Improve UI/UX designs.
