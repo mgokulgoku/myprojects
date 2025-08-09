@@ -13,6 +13,7 @@ Projects Included,
               Technologies Used HTML5, CSS3, JavaScript (ES6+), Responsive Design.
               
 Future Plans,
+
         -Add more projects regularly.
         -Learn React.js for advanced development.
         -Improve UI/UX designs.
