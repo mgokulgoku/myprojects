@@ -1,0 +1,116 @@
+/* Todo List Styles */
+
+/* Page Layout */
+body {
+    font-family: "Poppins", sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f8ff;
+}
+
+/* Main Title */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Input Area */
+.input-section {
+    display: flex;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+/* Text Input */
+#todoInput {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+}
+
+#todoInput:focus {
+    border-color: #4CAF50;
+}
+
+/* Add Button */
+#addBtn {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#addBtn:hover {
+    background-color: #45a049;
+}
+
+/* Todo Container */
+#todoList {
+    list-style: none;
+    padding: 0;
+}
+
+/* Todo Items */
+.todo-item {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Todo Text */
+.todo-text {
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Completed Todos */
+.todo-text.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Delete Button */
+.delete-btn {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
+
+/* Empty Message */
+.empty-state {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+    padding: 40px;
+}
+
+/* Counter */
+.stats {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    font-size: 14px;
+}
