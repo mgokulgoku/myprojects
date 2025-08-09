@@ -4,41 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
+    <title>My Calculator</title>
+    <!-- Calculator Stylesheet -->
     <link rel="stylesheet" href="calculator.css">
 </head>
 
 <body>
+    <!-- Main Container -->
     <div class="container">
+        <!-- Calculator Body -->
         <div class="calculator">
             <form>
+                <!-- Display Screen -->
                 <div class="display">
                     <input type="text" name="screen" value="">
                 </div>
+                
+                <!-- Row 1: Clear, Delete, Decimal, Division -->
                 <div>
                     <input type="button" value="AC" onclick="screen.value = ''" class="operator">
                     <input type="button" value="DE" onclick="screen.value = screen.value.slice(0,-1)" class="operator">
                     <input type="button" value="." onclick="screen.value += '.'" class="operator">
                     <input type="button" value="/" onclick="screen.value += '/'" class="operator">
                 </div>
+                
+                <!-- Row 2: Numbers 7-9, Multiplication -->
                 <div>
                     <input type="button" value="7" onclick="screen.value += '7'">
                     <input type="button" value="8" onclick="screen.value += '8'">
                     <input type="button" value="9" onclick="screen.value += '9'">
                     <input type="button" value="*" onclick="screen.value += '*'" class="operator">
                 </div>
+                
+                <!-- Row 3: Numbers 4-6, Subtraction -->
                 <div>
                     <input type="button" value="4" onclick="screen.value += '4'">
                     <input type="button" value="5" onclick="screen.value += '5'">
                     <input type="button" value="6" onclick="screen.value += '6'">
                     <input type="button" value="-" onclick="screen.value += '-'" class="operator">
                 </div>
+                
+                <!-- Row 4: Numbers 1-3, Addition -->
                 <div>
                     <input type="button" value="1" onclick="screen.value += '1'">
                     <input type="button" value="2" onclick="screen.value += '2'">
                     <input type="button" value="3" onclick="screen.value += '3'">
                     <input type="button" value="+" onclick="screen.value += '+'" class="operator">
                 </div>
+                
+                <!-- Row 5: Double Zero, Zero, Equals -->
                 <div>
                     <input type="button" value="00" onclick="screen.value += '00'">
                     <input type="button" value="0" onclick="screen.value += '0'">
