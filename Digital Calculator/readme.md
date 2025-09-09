@@ -1,6 +1,6 @@
 #Calculator
 
-Simple calculator for basic math operations.
+
 #What it does?
 - Add, subtract, multiply, divide numbers
 - Clear all with AC button
